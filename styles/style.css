@@ -1,0 +1,177 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  header .logo {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  header nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav ul li a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  header nav ul li a:hover {
+    color: #006699;
+  }
+  
+  /* Hero */
+  #hero {
+    background-color: #006699;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    background-color: #fff;
+    color: #006699;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #006699;
+    color: #fff;
+  }
+  
+  /* Digital Presence */
+  #digital-presence {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #digital-presence h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  #digital-presence ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #digital-presence ul li {
+    margin-right: 20px;
+  }
+  
+  #digital-presence ul li:last-child {
+    margin-right: 0;
+  }
+  
+  #digital-presence ul li a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #digital-presence ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* About Me */
+  #about-me {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #about-me h2 {
+    font-size: 32px;
+  }
+
+  #skills {
+    padding-top: 20px;
+  }
+
+  #projects {
+    padding-top: 20px;
+  }
+
+  #projects .container img{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+#contact img {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding-left: 50px;
+}
