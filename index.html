@@ -5,7 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Junior Web Developer Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@100&display=swap"
+        rel="stylesheet"> -->
     <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
@@ -16,7 +23,7 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -42,7 +49,7 @@
                         <a href="https://github.com/Ka1ekidan">GitHub</a>
                     </li>
                     <li>
-                        <a href="https://github.com/Ka1ekidan/Portfolio">Portfolio</a>
+                        <a href="#">Portfolio</a>
                     </li>
                 </ul>
             </div>
@@ -73,7 +80,7 @@
                         <p class="job-date">November 2017 – March 2023</p>
                     </li>
                     <li>
-                        <h3>Amanuel Ethiopian Evangelical Church | Alexandria, VA</h3>
+                        <h3>Amanuel Ethiopian Evangelical Church | Alexandria, VAe</h3>
                         <p class="job-title">Youth Pastor</p>
                         <p class="job-date">July 2017 – September 2023</p>
                     </li>
@@ -83,17 +90,33 @@
         <section id="skills">
             <div class="container">
                 <h2>Skills</h2>
-                <div class="container a">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <ul>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>SQL</li>
-                    </ul>
+                <div class="skills">
+                    <div class="skills-one">
+                        <ul>
+                            <li>
+                                <h3>HTML<span>5</span></h3>
+                            </li>
+                            <li>
+                                <h3>CSS<span>3</span></h3>
+                            </li>
+                            <li>
+                                <h3>JavaScript</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skills-two">
+                        <ul>
+                            <li>
+                                <h3>Unit Testing</h3>
+                            </li>
+                            <li>
+                                <h3>Node.js</h3>
+                            </li>
+                            <li>
+                                <h3>Git & GitHub</h3>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -104,12 +127,35 @@
                 <a href="#"><img src="./styles/Images/placeholder.jpeg" alt=""></a>
                 <a href="#"><img src="./styles/Images/placeholder.jpeg" alt=""></a>
             </div>
+            <div class="project-container">
+                <div class="project">
+                    <img src="project-image.jpg" alt>
+                </div>
+            </div>
         </section>
         <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p><img class="profile phone" src="./styles/Images/phone.png" alt="Phone">(720) 217-9691</p>
-                <p><img class="profile email" src="./styles/Images/email.png" alt="Email">kalekidanadugna1@gmail.com
-                </p>
+            <h2>Contact</h2>
+            <div class="info">
+                <h4>Phone</h4>
+                <a href="tel:7202179691">
+                    <h4>(720) 217-9691</h4>
+                </a>
+                <h4>E-mail</h4>
+                <a href="mailto:kalekidanadugna1@gmail.com">
+                    <h4>kalekidanadugna1@gmail.com
+                    </h4>
+                </a>
+            </div>
+            <div class="contact-form">
+                <h4>Message Me</h4>
+                <form action="mail.php" method="POST">
+                    <div class="name-email">
+                        <input type="text" size="25" name="name" id="name-in" placeholder="Your Name"><br><br>
+                        <input type="email" size="25" name="email" id="email-in" placeholder="Your E-mail"><br><br>
+                    </div><br>
+                    <textarea name="message" rows="10" cols=" 50" id="message-in" placeholder="Message">
+                    </textarea> <br><br>
+                    <input type="submit" value="Submit" class="btnSub">
+                </form>
             </div>
         </section>
