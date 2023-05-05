@@ -13,10 +13,9 @@ body {
   font-family: Montserrat, "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
   text-align: center;
-  background-color: #2B7A78;
-  color: #8E8D8A;
+  background-color: #3AAFA9;
+  color: #17252A;
 }
   
       .container {
@@ -24,12 +23,15 @@ body {
         margin: 0 auto;
         padding: 0 20px;
       }
- 
+      
+      h2 {
+        color: #DEF2F1;
+      }
       
 /* Header Section */
 
 header {
-  background-color: #2B7A78;
+  background-color: #3AAFA9;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -42,7 +44,7 @@ header {
         font-size: 32px;
         font-weight: 700;
         text-transform: uppercase;
-        color: #8E8D8A;
+        color: #FEFFFF;
       }
       
       header nav {
@@ -67,23 +69,22 @@ header {
       
       header nav ul li a {
         display: inline-block;
-        color: #8E8D8A;
+        color: #FEFFFF;
         text-decoration: none;
         padding: 8px 0;
         transition: all 0.3s ease-in-out;
       }
       
       header nav ul li a:hover {
-        color: #E85A4F;
+        color: #FCCD04;
       }
  
       
 /* Hero Section*/
 
 #hero {
-  color: #fff;
-  padding-top: 120px;
-  color: #8E8D8A;
+  padding-top: 150px;
+  color: #FEFFFF;
 }
   
       #hero h2 {
@@ -98,9 +99,9 @@ header {
 
       .btn-primary {
         display: inline-block;
-        background-color: #2B7A78;
-        color: #8E8D8A;
-        border: 1px solid #8E8D8A;
+        background-color: #3AAFA9;
+        color: #17252A;
+        border: 1px solid #17252A;
         padding: 10px 40px;
         border-radius: 10px;
         text-decoration: none;
@@ -110,16 +111,15 @@ header {
       }
       
       .btn-primary:hover {
-        background-color: gold;
-        color: #1F2833;
+        background-color: #FCCD04;
+        color: #A64AC9;
       }
   
 
 /* Digital Presence Section */
 
 #digital-presence {
-  /* background-color: #f9f9f9; */
-  margin: 10px 0;
+  margin: 40px 0;
   text-align: center;
 }
   
@@ -147,28 +147,28 @@ header {
       
       #digital-presence ul li a {
         display: inline-block;
-        color: #8E8D8A;
+        color: #17252A;
         text-decoration: none;
         padding: 10px 30px;
-        border: 1px solid #8E8D8A;
+        border: 1px solid #17252A;
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
-        margin-top: 20px;
+        margin-top: 50px;
       }
       
       #digital-presence ul li a:hover {
-        background-color: gold;
-        color: #1F2833;
+        background-color: #FCCD04;
+        color: #A64AC9;
       }
   
 
 /* About Me Section */
 
 #about-me {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 60px;
   text-align: center;
-  color: #8E8D8A;
+  color: #17252A;
 }
   
       #about-me h2 {
@@ -178,10 +178,14 @@ header {
       #about-me p {
         padding: 20px 8%;
       }
+      #about-me .name {
+        color: #DEF2F1;
+      }
 
 /* Experiences section */
 #experiences {
-  padding-top: 25px;
+  padding-top: 30px;
+  margin-bottom: 40px;;
 }
       #experiences h2 {
         font-size: 32px;
@@ -192,7 +196,7 @@ header {
       }
       
       #experiences ul li{
-        padding-top: 20px;
+        padding-top: 30px;
       }
 
       #experiences ul li h3 {
@@ -202,8 +206,8 @@ header {
  /* Skills section */     
 
 #skills {
-  padding-top: 20px;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 
       .skills {
@@ -233,7 +237,7 @@ header {
 
 /* Projects section */
 #projects {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
       #projects h2 {
@@ -250,7 +254,7 @@ header {
 /* Contact section */
 #contact {
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
       #contact h2 {
@@ -280,8 +284,8 @@ header {
       }
 
       input, textarea {
-        border: 1px solid #8E8D8A;
-        background-color: #2B7A78; 
+        border: 1px solid #17252A;
+        background-color: #3AAFA9; 
         border-radius: 10px;
       }
 
@@ -296,24 +300,24 @@ header {
       }
 
       #contact .btnSub {
-        background-color: #2B7A78;
-        color: #8E8D8A;
+        background-color: #3AAFA9;
+        color: #17252A;
         text-decoration: none;
         padding: 10px 50px;
-        border: 1px solid #8E8D8A;
+        border: 1px solid #17252A;
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
         margin-top: 10px;
       }
 
       #contact .btnSub:hover {
-        background-color: gold;
-        color: #1F2833;
+        background-color: #FCCD04;
+        color: #A64AC9;
       }
 
       #contact ::placeholder {
         text-align: center; 
-        color: #8E8D8A;
+        color: #17252A;
      }
 
      #contact input[type="submit"] {
