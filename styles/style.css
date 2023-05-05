@@ -157,8 +157,8 @@ header {
       }
       
       #digital-presence ul li a:hover {
-        background-color: #D8C3A5;
-        color: #fff;
+        background-color: gold;
+        color: #1F2833;
       }
   
 
@@ -297,7 +297,7 @@ header {
 
       #contact .btnSub {
         background-color: #2B7A78;
-        color: #1F2833;
+        color: #8E8D8A;
         text-decoration: none;
         padding: 10px 50px;
         border: 1px solid #8E8D8A;
@@ -314,4 +314,9 @@ header {
       #contact ::placeholder {
         text-align: center; 
         color: #8E8D8A;
+     }
+
+     #contact input[type="submit"] {
+      font-family: Montserrat, Arial, Helvetica, sans-serif;
+      font-size: 15px;
      }
